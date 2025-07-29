@@ -1,0 +1,42 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+- intent: goodbye
+  examples: |
+    - bye
+    - see you
+- intent: tech_interest
+  examples: |
+    - I like AI
+    - I love programming
+    - I want to work in tech
+- intent: arts_interest
+  examples: |
+    - I like drawing
+    - I enjoy writing
+    - I want to pursue arts
+- intent: commerce_interest
+  examples: |
+    - I am interested in business
+    - I like accounting
+    - I want a commerce career
+- intent: ask_courses_after_12
+  examples: |
+    - what are the courses I can do after 12th?
+    - career options after 12th commerce?
+    - what to study after 12th science?
+- intent: career_query
+  examples: |
+    - What are the best career options after 12th science?
+    - How can I become a software engineer?
+    - Courses after BCom?
+    - Scope of data science in India?
+    - Which is better: MBA or MTech?
+    - Career after diploma in mechanical?
+    - Best colleges for BBA?
+    - I want to become a lawyer. What should I study?
+    - What exams are needed for IIT?
+    - Career in fashion designing?

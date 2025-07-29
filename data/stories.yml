@@ -1,0 +1,23 @@
+version: "3.1"
+stories:
+- story: greet and tech
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: tech_interest
+    - action: utter_recommend_tech
+
+- story: arts path
+  steps:
+    - intent: arts_interest
+    - action: utter_recommend_arts
+
+- story: commerce path
+  steps:
+    - intent: commerce_interest
+    - action: utter_recommend_commerce
+
+- story: say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye

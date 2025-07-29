@@ -1,0 +1,25 @@
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - tech_interest
+  - arts_interest
+  - commerce_interest
+  - career_query
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm your career guide. What are your interests?"
+  utter_goodbye:
+    - text: "Goodbye and good luck with your future!"
+  utter_recommend_tech:
+    - text: "You might enjoy careers like Software Engineer, Data Scientist, or AI Specialist."
+  utter_recommend_arts:
+    - text: "Consider careers like Graphic Designer, Writer, or Musician."
+  utter_recommend_commerce:
+    - text: "You could become an Accountant, Business Analyst, or Banker."
+  utter_iamabot:
+    - text: "I am a virtual career counselling assistant, here to help you with your career decisions!"
+
+actions:
+  - action_career_counsellor    
