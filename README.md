@@ -30,7 +30,6 @@ ai_career_counsellor/
 ├── data/                  # NLU training data (intents)
 ├── models/                # Rasa trained models
 ├── streamlit_app/         # Streamlit UI frontend
-├── tests/                 # Rasa testing files
 ├── config.yml             # Rasa pipeline & policies
 ├── credentials.yml        # Rasa/Gemini config
 ├── domain.yml             # Intents, entities, slots, responses
@@ -89,16 +88,6 @@ genai.configure(api_key="YOUR_API_KEY")
 
 ---
 
-## 🎯 Features to Include in Final Project
-
-* [x] Predefined intents for domain-specific career paths (tech, commerce, arts, etc.)
-* [x] Real-time conversation with contextual memory
-* [x] Gemini API integration for knowledge-rich responses
-* [x] Interactive and clean Streamlit UI
-* [x] Custom actions for dynamic replies and links
-* [x] Response history with user and assistant messages
-* [ ] Optional: Upload resume and get career suggestion
-
 ---
 
 ## 📹 Deliverables
@@ -122,10 +111,8 @@ genai.configure(api_key="YOUR_API_KEY")
 
 ## 🧠 Credits
 
-Built as a final year AI/ML project to demonstrate NLP, LLMs, and chatbot UI integration.
+Built as a AI/ML project to demonstrate NLP, LLMs, and chatbot UI integration.
 
 ---
 
-## 📌 License
 
-MIT License.
